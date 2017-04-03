@@ -46,10 +46,6 @@ class DjangoCMSFormsConf(AppConf):
 
     DEFAULT_FIELD_TYPE = 'text'
 
-    FIELD_TYPES_WITH_PLACEHOLDER = (
-        'text', 'textarea', 'email', 'number', 'phone', 'url', 'password',
-    )
-
     SPAM_PROTECTIONS = (
         (0, _('None')),
         (1, _('Honeypot')),
